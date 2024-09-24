@@ -314,9 +314,9 @@ screen win:
 
     image "UI/winimage.png" xpos 0 ypos 0
 
-    imagebutton auto "UI/retry_%s.png" xpos 407 ypos 736 focus_mask True action 
+    imagebutton auto "UI/retry_%s.png" xpos 407 ypos 736 focus_mask True action MainMenu()
 
-    imagebutton auto "UI/quit_%s.png" xpos 1167 ypos 736 focus_mask True action 
+    imagebutton auto "UI/quit_%s.png" xpos 1167 ypos 736 focus_mask True action Quit()
 
 label start:
 
